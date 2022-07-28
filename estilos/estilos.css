@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.containerCajitas{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    
+}
+html{
+    height: 100%;
+}
+.cajita{
+    display: flex;   
+    margin: auto;
+    width: 25vw;
+    height: 20vh;
+    background-color: rgb(0, 1, 2);
+    justify-content: space-around ;  
+    align-items: center;
+    border-radius: 20px;
+   
+   
+
+}
+.cajita img{
+    /* width: 50px; */
+    height: 150px;
+    /* margin: auto;    */
+    border-radius: 50%;     
+    overflow: hidden;    
+}
+.cajita:hover{
+  background-color: rgb(250, 174, 33);
+}
+
+
+h1{
+    margin-top: 100px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: rgb(84, 124, 235);
+}
+
+
+
